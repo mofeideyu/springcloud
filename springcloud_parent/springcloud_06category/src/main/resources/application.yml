@@ -1,0 +1,10 @@
+server:
+  port: 8787
+spring:
+  application:
+    name: CATEGORY
+# 注册到consul server
+  cloud:
+    consul:
+      host: localhost
+      port: 8500

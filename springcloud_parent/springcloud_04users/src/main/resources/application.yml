@@ -1,0 +1,9 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: USERS
+  cloud:
+    consul:
+      host: localhost
+      port: 8500

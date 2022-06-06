@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/code.iml" filepath="$PROJECT_DIR$/code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud_parent/springcloud_01eureka_server/springcloud_01eureka_server.iml" filepath="$PROJECT_DIR$/springcloud_parent/springcloud_01eureka_server/springcloud_01eureka_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud_parent/springcloud_02eureka_client/springcloud_02eureka_client.iml" filepath="$PROJECT_DIR$/springcloud_parent/springcloud_02eureka_client/springcloud_02eureka_client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud_parent/springcloud_03consulclient/springcloud_03consulclient.iml" filepath="$PROJECT_DIR$/springcloud_parent/springcloud_03consulclient/springcloud_03consulclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud_parent/springcloud_04users/springcloud_04users.iml" filepath="$PROJECT_DIR$/springcloud_parent/springcloud_04users/springcloud_04users.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud_parent/springcloud_05order/springcloud_05order.iml" filepath="$PROJECT_DIR$/springcloud_parent/springcloud_05order/springcloud_05order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud_parent/springcloud_06category/springcloud_06category.iml" filepath="$PROJECT_DIR$/springcloud_parent/springcloud_06category/springcloud_06category.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud_parent/springcloud_07product/springcloud_07product.iml" filepath="$PROJECT_DIR$/springcloud_parent/springcloud_07product/springcloud_07product.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud_parent/springcloud_parent.iml" filepath="$PROJECT_DIR$/springcloud_parent/springcloud_parent.iml" />
+    </modules>
+  </component>
+</project>
