@@ -8,3 +8,11 @@ spring:
     consul:
       host: localhost
       port: 8500
+
+# 配置openfeign默认超时时间 单位：毫秒
+feign:
+  client:
+    config:
+      default:
+        connect-timeout: 5000
+        read-timeout: 5000
