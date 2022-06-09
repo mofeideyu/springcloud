@@ -13,18 +13,9 @@
         <module name="springcloud_03consulclient" />
         <module name="springcloud_05order" />
         <module name="springcloud_07product" />
+        <module name="springcloud_08hystrix" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="springcloud_01eureka_server" target="1.8" />
-      <module name="springcloud_02eureka_client" target="1.8" />
-      <module name="springcloud_03consulclient" target="1.8" />
-      <module name="springcloud_04users" target="1.8" />
-      <module name="springcloud_05order" target="1.8" />
-      <module name="springcloud_06category" target="1.8" />
-      <module name="springcloud_07product" target="1.8" />
-      <module name="springcloud_parent" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
@@ -35,6 +26,7 @@
       <module name="springcloud_05order" options="-parameters" />
       <module name="springcloud_06category" options="-parameters" />
       <module name="springcloud_07product" options="-parameters" />
+      <module name="springcloud_08hystrix" options="-parameters" />
       <module name="springcloud_parent" options="-parameters" />
     </option>
   </component>
