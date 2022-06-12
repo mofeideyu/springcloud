@@ -1,0 +1,9 @@
+server:
+  port: 9909
+spring:
+  application:
+    name: HISTRIXDASHBOARD
+  cloud:
+    consul:
+      host: localhost
+      port: 8500

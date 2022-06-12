@@ -12,6 +12,7 @@
         <module name="springcloud_04users" />
         <module name="springcloud_02eureka_client" />
         <module name="springcloud_03consulclient" />
+        <module name="springcloud_10hystrix_dashboard" />
         <module name="springcloud_05order" />
         <module name="springcloud_07product" />
         <module name="springcloud_08hystrix" />
@@ -29,6 +30,7 @@
       <module name="springcloud_07product" options="-parameters" />
       <module name="springcloud_08hystrix" options="-parameters" />
       <module name="springcloud_09openfeign_histrix" options="-parameters" />
+      <module name="springcloud_10hystrix_dashboard" options="-parameters" />
     </option>
   </component>
 </project>
