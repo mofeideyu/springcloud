@@ -1,0 +1,14 @@
+server:
+  port: 8991
+spring:
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+  application:
+    name: OPENFEIGNHISTRIX
+
+## 开启openfeign在调用服务中 开启hystrix支持
+feign:
+  hystrix:
+    enabled: true

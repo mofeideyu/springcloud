@@ -9,7 +9,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class DemoController {
 
     @GetMapping("demo")
-    @HystrixCommand(fallbackMethod = "demoFallBack")
+//    @HystrixCommand(fallbackMethod = "demoFallBack"")
+    @HystrixCommand(defaultFallback = "defaultFallback")
     public String Demo(@RequestParam Integer id) {
         if (id < 0) {
             throw new RuntimeException("无效id");
@@ -20,5 +21,9 @@ public class DemoController {
 
     public String demoFallBack(Integer id) {
         return "服务已熔断";
+    }
+
+    public String defaultFallback() {
+        return "网络链接失败,请重试!";
     }
 }
