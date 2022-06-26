@@ -17,6 +17,9 @@
         <module>springcloud_06category</module>
         <module>springcloud_07product</module>
         <module>springcloud_08hystrix</module>
+        <module>springcloud_09gateway</module>
+        <module>springcloud_10configserver</module>
+        <module>springcloud_11configclient</module>
     </modules>
 
     <!--继承springboot父项目-->

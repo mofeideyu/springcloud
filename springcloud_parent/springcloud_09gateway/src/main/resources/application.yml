@@ -1,0 +1,26 @@
+server:
+  port: 7979
+spring:
+  application:
+    name: GATEWAY
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+    gateway:
+      routes:
+        - id: category_router
+#          uri: http://localhost:8787
+          uri: lb://CATEGORY  # load balance
+          predicates: ## 断言 用来配置路由规则
+            - Path=/category/**
+        - id: product_router
+#          uri: http://localhost:8788
+          uri: lb://PRODUCT
+          predicates: ## 断言 用来配置路由规则
+            - Path=/list/**
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

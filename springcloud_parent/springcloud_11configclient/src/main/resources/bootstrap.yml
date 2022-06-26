@@ -1,0 +1,27 @@
+#server:
+#  port: 8990
+spring:
+#  application:
+#    name: CONFIGCLIENT
+  cloud:
+#    consul:
+#      host: localhost
+#      port: 8500
+    config:
+      discovery:
+        service-id: CONFIGSERVER
+        enabled: true
+      label: main
+      name: configclient
+      profile: dev
+      # 启动时远端配置还未拉取完整，项目启动过程中所有失败都是允许的
+      fail-fast: true
+
+  # 获取哪个配置文件
+
+# 获取分之
+
+#  profiles:
+#    active: dev
+
+# 告诉configClient统一配置中心服务id

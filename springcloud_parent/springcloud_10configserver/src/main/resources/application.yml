@@ -1,0 +1,25 @@
+server:
+  port: 8848
+spring:
+  application:
+    name: CONFIGSERVER
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+    config:
+      server:
+        git:
+          uri: https://github.com/mofeideyu/configs.git
+          default-label: main
+  rabbitmq:
+    host: 47.99.112.1
+    port: 5672
+    username: mofeideyu
+    password: xuemofei510521
+# 报漏所有的web端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
